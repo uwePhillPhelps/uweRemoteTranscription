@@ -21,7 +21,7 @@ set timeout -1
 spawn ssh 127.0.0.1 -l $userex -p 5022 \
 -L $screenLocalportex/$serverex/$screenRemoteportex \
 -L $audioLocalportex/$serverex/$audioRemoteportex \
--L $fileshareLocalportex/$serverex/$fileshareRemoteportex
+-L $fileshareLocalportex/$serverex/$fileshareRemoteportex \
 -L $webLocalportex/$serverex/$webRemoteportex
 
 match_max 100000

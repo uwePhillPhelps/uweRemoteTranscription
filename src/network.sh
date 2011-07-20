@@ -15,7 +15,7 @@ exit 0
 fi
 #can we connect to some other server?
 ping -c 1 -t 3 $testserver > /dev/null
-# if we can't ping the test server, then record so
+# if we can't ping the outside, then record so
 if [ $? -gt 0 ]
 then
 blank=2 

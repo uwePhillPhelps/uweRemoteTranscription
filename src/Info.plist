@@ -9,7 +9,7 @@
 	<key>CFBundleExecutable</key>
 	<string>${EXECUTABLE_NAME}</string>
 	<key>CFBundleIconFile</key>
-	<string>transcription.icns</string>
+	<string>UWE.icns</string>
 	<key>CFBundleIdentifier</key>
 	<string>com.apple.ASApplication</string>
 	<key>CFBundleInfoDictionaryVersion</key>
@@ -31,6 +31,6 @@
 	<key>CFBundleHelpBookFolder</key>
 	<string>Help</string>
 	<key>CFBundleHelpBookName</key>
-	<string>remoteTranscription</string>
+	<string>BIT Remote Access Help</string>
 </dict>
 </plist>
