@@ -12,7 +12,7 @@
 			buildActionMask = 2147483647;
 			contextName = "";
 			files = (
-				257572C5072881A4000BE9CA /* BIT Remote Access.applescript in AppleScript */,
+				6F4D600613D6F023004AA3D2 /* remoteTranscription.applescript in AppleScript */,
 			);
 			isSharedContext = 0;
 			runOnlyForDeploymentPostprocessing = 0;
@@ -20,38 +20,42 @@
 /* End PBXAppleScriptBuildPhase section */
 
 /* Begin PBXBuildFile section */
-		257572C5072881A4000BE9CA /* BIT Remote Access.applescript in AppleScript */ = {isa = PBXBuildFile; fileRef = DA206CF3015C4E8B03C91932 /* BIT Remote Access.applescript */; settings = {ATTRIBUTES = (Debug, ); }; };
 		257572C8072881A4000BE9CA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
 		257572CA072881A4000BE9CA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
 		257572CC072881A4000BE9CA /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
 		257572CD072881A4000BE9CA /* AppleScriptKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA206CF1015C4E2903C91932 /* AppleScriptKit.framework */; };
 		60A014C40DBD2AA20071D9A8 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 60A014C20DBD2AA20071D9A8 /* MainMenu.xib */; };
+		6F4D600613D6F023004AA3D2 /* remoteTranscription.applescript in AppleScript */ = {isa = PBXBuildFile; fileRef = 6F4D600513D6F023004AA3D2 /* remoteTranscription.applescript */; settings = {ATTRIBUTES = (Debug, ); }; };
+		6F4D600913D6F0B7004AA3D2 /* remoteTranscription.html in Resources */ = {isa = PBXBuildFile; fileRef = 6F4D600813D6F0B7004AA3D2 /* remoteTranscription.html */; };
+		6F4D600B13D6F0C9004AA3D2 /* transcription.icns in Resources */ = {isa = PBXBuildFile; fileRef = 6F4D600A13D6F0C9004AA3D2 /* transcription.icns */; };
+		6F4D601F13D6F100004AA3D2 /* remoteTranscription.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 6F4D601E13D6F100004AA3D2 /* remoteTranscription.rtf */; };
 		D38F78760FB303D100A4244E /* UWE.icns in Resources */ = {isa = PBXBuildFile; fileRef = D38F78750FB303D100A4244E /* UWE.icns */; };
 		D3F0A65D0FB1E2A300E65155 /* expect.sh in Resources */ = {isa = PBXBuildFile; fileRef = D3F0A65A0FB1E2A300E65155 /* expect.sh */; };
 		D3F0A65E0FB1E2A300E65155 /* sshtest.sh in Resources */ = {isa = PBXBuildFile; fileRef = D3F0A65B0FB1E2A300E65155 /* sshtest.sh */; };
 		D3F0A65F0FB1E2A300E65155 /* network.sh in Resources */ = {isa = PBXBuildFile; fileRef = D3F0A65C0FB1E2A300E65155 /* network.sh */; };
 		D3F0A6630FB1E2DC00E65155 /* UWE_clr.gif in Resources */ = {isa = PBXBuildFile; fileRef = D3F0A6610FB1E2DC00E65155 /* UWE_clr.gif */; };
-		D3F8A8CA0FC1B03A005FC7AD /* BIT Remote Access Guide.html in Resources */ = {isa = PBXBuildFile; fileRef = D3F8A8C90FC1B03A005FC7AD /* BIT Remote Access Guide.html */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		089C165DFE840E0CC02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
 		257572D5072881A4000BE9CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		257572D6072881A4000BE9CA /* BIT Remote Access.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BIT Remote Access.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		257572D6072881A4000BE9CA /* remoteTranscription.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = remoteTranscription.app; path = build/Debug/remoteTranscription.app; sourceTree = "<group>"; };
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
 		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
 		60A014C30DBD2AA20071D9A8 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		65359356078DD41800E8BB2F /* AppleScriptKit.sdef */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.sdef; name = AppleScriptKit.sdef; path = /System/Library/Frameworks/AppleScriptKit.framework/Versions/A/Resources/AppleScriptKit.sdef; sourceTree = "<absolute>"; };
+		6F4D600513D6F023004AA3D2 /* remoteTranscription.applescript */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.applescript; path = remoteTranscription.applescript; sourceTree = "<group>"; };
+		6F4D600813D6F0B7004AA3D2 /* remoteTranscription.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = remoteTranscription.html; sourceTree = "<group>"; };
+		6F4D600A13D6F0C9004AA3D2 /* transcription.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = transcription.icns; sourceTree = "<group>"; };
+		6F4D601E13D6F100004AA3D2 /* remoteTranscription.rtf */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; path = remoteTranscription.rtf; sourceTree = "<group>"; };
 		D38F78750FB303D100A4244E /* UWE.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = UWE.icns; sourceTree = "<group>"; };
 		D3F0A65A0FB1E2A300E65155 /* expect.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = expect.sh; sourceTree = "<group>"; };
 		D3F0A65B0FB1E2A300E65155 /* sshtest.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = sshtest.sh; sourceTree = "<group>"; };
 		D3F0A65C0FB1E2A300E65155 /* network.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = network.sh; sourceTree = "<group>"; };
 		D3F0A6610FB1E2DC00E65155 /* UWE_clr.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = UWE_clr.gif; sourceTree = "<group>"; };
-		D3F8A8C90FC1B03A005FC7AD /* BIT Remote Access Guide.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "BIT Remote Access Guide.html"; sourceTree = "<group>"; };
 		DA206CF1015C4E2903C91932 /* AppleScriptKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppleScriptKit.framework; path = /System/Library/Frameworks/AppleScriptKit.framework; sourceTree = "<absolute>"; };
-		DA206CF3015C4E8B03C91932 /* BIT Remote Access.applescript */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.applescript; path = "BIT Remote Access.applescript"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,10 +74,10 @@
 		080E96DDFE201D6D7F000001 /* Scripts */ = {
 			isa = PBXGroup;
 			children = (
+				6F4D600513D6F023004AA3D2 /* remoteTranscription.applescript */,
 				D3F0A65A0FB1E2A300E65155 /* expect.sh */,
 				D3F0A65B0FB1E2A300E65155 /* sshtest.sh */,
 				D3F0A65C0FB1E2A300E65155 /* network.sh */,
-				DA206CF3015C4E8B03C91932 /* BIT Remote Access.applescript */,
 			);
 			name = Scripts;
 			sourceTree = "<group>";
@@ -99,7 +103,7 @@
 		19C28FACFE9D520D11CA2CBB /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				257572D6072881A4000BE9CA /* BIT Remote Access.app */,
+				257572D6072881A4000BE9CA /* remoteTranscription.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -128,6 +132,7 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				6F4D600A13D6F0C9004AA3D2 /* transcription.icns */,
 				D3F8A8DA0FC1B100005FC7AD /* Help */,
 				D3F0A6610FB1E2DC00E65155 /* UWE_clr.gif */,
 				60A014C20DBD2AA20071D9A8 /* MainMenu.xib */,
@@ -150,7 +155,8 @@
 		D3F8A8DA0FC1B100005FC7AD /* Help */ = {
 			isa = PBXGroup;
 			children = (
-				D3F8A8C90FC1B03A005FC7AD /* BIT Remote Access Guide.html */,
+				6F4D601E13D6F100004AA3D2 /* remoteTranscription.rtf */,
+				6F4D600813D6F0B7004AA3D2 /* remoteTranscription.html */,
 			);
 			name = Help;
 			sourceTree = "<group>";
@@ -168,9 +174,9 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		257572C2072881A4000BE9CA /* BIT Remote Access */ = {
+		257572C2072881A4000BE9CA /* remoteTranscription */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4E71A80508A2C90C0034BBD9 /* Build configuration list for PBXNativeTarget "BIT Remote Access" */;
+			buildConfigurationList = 4E71A80508A2C90C0034BBD9 /* Build configuration list for PBXNativeTarget "remoteTranscription" */;
 			buildPhases = (
 				257572C3072881A4000BE9CA /* Headers */,
 				257572C4072881A4000BE9CA /* AppleScript */,
@@ -182,10 +188,10 @@
 			);
 			dependencies = (
 			);
-			name = "BIT Remote Access";
+			name = remoteTranscription;
 			productInstallPath = "$(HOME)/Applications";
 			productName = "BIT Remote Access";
-			productReference = 257572D6072881A4000BE9CA /* BIT Remote Access.app */;
+			productReference = 257572D6072881A4000BE9CA /* remoteTranscription.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -193,14 +199,14 @@
 /* Begin PBXProject section */
 		29B97313FDCFA39411CA2CEA /* Project object */ = {
 			isa = PBXProject;
-			buildConfigurationList = 4E71A80908A2C90C0034BBD9 /* Build configuration list for PBXProject "BIT Remote Access" */;
+			buildConfigurationList = 4E71A80908A2C90C0034BBD9 /* Build configuration list for PBXProject "remoteTranscription" */;
 			compatibilityVersion = "Xcode 2.4";
 			hasScannedForEncodings = 1;
 			mainGroup = 29B97314FDCFA39411CA2CEA /* BIT Remote Access */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				257572C2072881A4000BE9CA /* BIT Remote Access */,
+				257572C2072881A4000BE9CA /* remoteTranscription */,
 			);
 		};
 /* End PBXProject section */
@@ -217,7 +223,9 @@
 				D3F0A65F0FB1E2A300E65155 /* network.sh in Resources */,
 				D3F0A6630FB1E2DC00E65155 /* UWE_clr.gif in Resources */,
 				D38F78760FB303D100A4244E /* UWE.icns in Resources */,
-				D3F8A8CA0FC1B03A005FC7AD /* BIT Remote Access Guide.html in Resources */,
+				6F4D600913D6F0B7004AA3D2 /* remoteTranscription.html in Resources */,
+				6F4D600B13D6F0C9004AA3D2 /* transcription.icns in Resources */,
+				6F4D601F13D6F100004AA3D2 /* remoteTranscription.rtf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -292,7 +300,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				ONLY_ACTIVE_ARCH = NO;
 				PREBINDING = NO;
-				SDKROOT = /Developer/SDKs/MacOSX10.4u.sdk;
+				SDKROOT = "";
 			};
 			name = Debug;
 		};
@@ -305,14 +313,14 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				PREBINDING = NO;
-				SDKROOT = /Developer/SDKs/MacOSX10.4u.sdk;
+				SDKROOT = "";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		4E71A80508A2C90C0034BBD9 /* Build configuration list for PBXNativeTarget "BIT Remote Access" */ = {
+		4E71A80508A2C90C0034BBD9 /* Build configuration list for PBXNativeTarget "remoteTranscription" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4E71A80608A2C90C0034BBD9 /* Debug */,
@@ -321,7 +329,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4E71A80908A2C90C0034BBD9 /* Build configuration list for PBXProject "BIT Remote Access" */ = {
+		4E71A80908A2C90C0034BBD9 /* Build configuration list for PBXProject "remoteTranscription" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4E71A80A08A2C90C0034BBD9 /* Debug */,

@@ -1,12 +1,19 @@
 // !$*UTF8*$!
 {
-	257572C2072881A4000BE9CA /* BIT Remote Access */ = {
+	089C165DFE840E0CC02AAC07 /* English */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {523, 454}}";
+			sepNavSelRange = "{183, 0}";
+			sepNavVisRange = "{0, 188}";
+		};
+	};
+	257572C2072881A4000BE9CA /* remoteTranscription */ = {
 		activeExec = 0;
 		executables = (
-			25D9445407B1533600FF306F /* BIT Remote Access */,
+			25D9445407B1533600FF306F /* remoteTranscription */,
 		);
 	};
-	25D9445407B1533600FF306F /* BIT Remote Access */ = {
+	25D9445407B1533600FF306F /* remoteTranscription */ = {
 		isa = PBXExecutable;
 		activeArgIndices = (
 		);
@@ -60,7 +67,7 @@
 		executableSystemSymbolLevel = 0;
 		executableUserSymbolLevel = 0;
 		libgmallocEnabled = 0;
-		name = "BIT Remote Access";
+		name = remoteTranscription;
 		showTypeColumn = 0;
 		sourceDirectories = (
 		);
@@ -82,21 +89,38 @@
 	};
 	29B97313FDCFA39411CA2CEA /* Project object */ = {
 		activeBuildConfigurationName = Debug;
-		activeExecutable = 25D9445407B1533600FF306F /* BIT Remote Access */;
-		activeTarget = 257572C2072881A4000BE9CA /* BIT Remote Access */;
+		activeExecutable = 25D9445407B1533600FF306F /* remoteTranscription */;
+		activeTarget = 257572C2072881A4000BE9CA /* remoteTranscription */;
+		addToTargets = (
+			257572C2072881A4000BE9CA /* remoteTranscription */,
+		);
 		codeSenseManager = 25D9445B07B1533700FF306F /* Code sense */;
 		executables = (
-			25D9445407B1533600FF306F /* BIT Remote Access */,
+			25D9445407B1533600FF306F /* remoteTranscription */,
 		);
 		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXExecutablesDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXExecutablesDataSource_NameID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					22,
+					300,
+					129,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXExecutablesDataSource_ActiveFlagID,
+					PBXExecutablesDataSource_NameID,
+					PBXExecutablesDataSource_CommentsID,
+				);
+			};
 			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
 				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
 				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
 				PBXFileTableDataSourceColumnWidthsKey = (
 					20,
-					487,
+					446,
 					20,
-					48.16259765625,
+					48,
 					43,
 					43,
 					20,
@@ -111,49 +135,220 @@
 					PBXFileDataSource_Target_ColumnID,
 				);
 			};
-			PBXPerProjectTemplateStateSaveDate = 309089929;
-			PBXWorkspaceStateSaveDate = 309089929;
+			PBXConfiguration.PBXTargetDataSource.PBXTargetDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					201,
+					60,
+					20,
+					48,
+					43,
+					43,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXTargetDataSource_PrimaryAttribute,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 332853266;
+			PBXWorkspaceStateSaveDate = 332853266;
 		};
 		perUserProjectItems = {
 			6F374D46126C5745003E0145 /* PlistBookmark */ = 6F374D46126C5745003E0145 /* PlistBookmark */;
-			6F374D47126C5745003E0145 /* PBXBookmark */ = 6F374D47126C5745003E0145 /* PBXBookmark */;
-			6F374D48126C5745003E0145 /* PBXTextBookmark */ = 6F374D48126C5745003E0145 /* PBXTextBookmark */;
+			6F4D601413D6F0FC004AA3D2 /* PBXTextBookmark */ = 6F4D601413D6F0FC004AA3D2 /* PBXTextBookmark */;
+			6F4D601513D6F0FC004AA3D2 /* PBXTextBookmark */ = 6F4D601513D6F0FC004AA3D2 /* PBXTextBookmark */;
+			6F4D601613D6F0FC004AA3D2 /* PBXTextBookmark */ = 6F4D601613D6F0FC004AA3D2 /* PBXTextBookmark */;
+			6F4D601713D6F0FC004AA3D2 /* PBXBookmark */ = 6F4D601713D6F0FC004AA3D2 /* PBXBookmark */;
+			6F4D601B13D6F0FC004AA3D2 /* PBXBookmark */ = 6F4D601B13D6F0FC004AA3D2 /* PBXBookmark */;
+			6F4D602113D6F134004AA3D2 /* PBXTextBookmark */ = 6F4D602113D6F134004AA3D2 /* PBXTextBookmark */;
+			6F4D603B13D6F233004AA3D2 /* PBXBookmark */ = 6F4D603B13D6F233004AA3D2 /* PBXBookmark */;
+			6F4D605113D6F2EF004AA3D2 /* PlistBookmark */ = 6F4D605113D6F2EF004AA3D2 /* PlistBookmark */;
+			6F4D605A13D6F36D004AA3D2 /* PBXBookmark */ = 6F4D605A13D6F36D004AA3D2 /* PBXBookmark */;
+			6F4D605B13D6F36D004AA3D2 /* PBXTextBookmark */ = 6F4D605B13D6F36D004AA3D2 /* PBXTextBookmark */;
+			6F4D605C13D6F36D004AA3D2 /* PBXTextBookmark */ = 6F4D605C13D6F36D004AA3D2 /* PBXTextBookmark */;
+			6F4D605D13D6F36D004AA3D2 /* PBXTextBookmark */ = 6F4D605D13D6F36D004AA3D2 /* PBXTextBookmark */;
+			6F4D605E13D6F36D004AA3D2 /* PBXTextBookmark */ = 6F4D605E13D6F36D004AA3D2 /* PBXTextBookmark */;
+			6F4D605F13D6F36D004AA3D2 /* PBXTextBookmark */ = 6F4D605F13D6F36D004AA3D2 /* PBXTextBookmark */;
 		};
 		sourceControlManager = 25D9445A07B1533700FF306F /* Source Control */;
 		userBuildSettings = {
 		};
 	};
+	29B97316FDCFA39411CA2CEA /* main.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {624, 440}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 197}";
+		};
+	};
 	6F374D46126C5745003E0145 /* PlistBookmark */ = {
 		isa = PlistBookmark;
-		fRef = A1983E741268888200679226 /* internalDesktop.vncloc */;
 		fallbackIsa = PBXBookmark;
 		isK = 0;
 		kPath = (
 		);
 		name = "/Volumes/NO NAME/BIT Remote Access/BIT Remote Access Edit This One/internalDesktop.vncloc";
 		rLen = 0;
-		rLoc = 9223372036854775807;
+		rLoc = 9223372036854775808;
 	};
-	6F374D47126C5745003E0145 /* PBXBookmark */ = {
-		isa = PBXBookmark;
-		fRef = DA206CF3015C4E8B03C91932 /* BIT Remote Access.applescript */;
+	6F4D600513D6F023004AA3D2 /* remoteTranscription.applescript */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {477, 7421}}";
+			sepNavSelRange = "{20555, 0}";
+			sepNavVisRange = "{0, 703}";
+			sepNavWindowFrame = "{{15, 5}, {1018, 768}}";
+		};
 	};
-	6F374D48126C5745003E0145 /* PBXTextBookmark */ = {
+	6F4D600813D6F0B7004AA3D2 /* remoteTranscription.html */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1769, 1157}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 2185}";
+		};
+	};
+	6F4D601413D6F0FC004AA3D2 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
-		fRef = DA206CF3015C4E8B03C91932 /* BIT Remote Access.applescript */;
-		name = "BIT Remote Access.applescript: 1";
-		rLen = 13545;
+		fRef = D3F0A65A0FB1E2A300E65155 /* expect.sh */;
+		name = "expect.sh: 1";
+		rLen = 0;
 		rLoc = 0;
 		rType = 0;
-		vrLen = 1175;
-		vrLoc = 4503;
+		vrLen = 879;
+		vrLoc = 0;
 	};
-	DA206CF3015C4E8B03C91932 /* BIT Remote Access.applescript */ = {
+	6F4D601513D6F0FC004AA3D2 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D3F0A65B0FB1E2A300E65155 /* sshtest.sh */;
+		name = "sshtest.sh: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 502;
+		vrLoc = 0;
+	};
+	6F4D601613D6F0FC004AA3D2 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D3F0A65C0FB1E2A300E65155 /* network.sh */;
+		name = "network.sh: 18";
+		rLen = 0;
+		rLoc = 375;
+		rType = 0;
+		vrLen = 744;
+		vrLoc = 0;
+	};
+	6F4D601713D6F0FC004AA3D2 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = D38F78750FB303D100A4244E /* UWE.icns */;
+	};
+	6F4D601B13D6F0FC004AA3D2 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = D3F0A6610FB1E2DC00E65155 /* UWE_clr.gif */;
+	};
+	6F4D602113D6F134004AA3D2 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6F4D600813D6F0B7004AA3D2 /* remoteTranscription.html */;
+		name = "remoteTranscription.html: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 2185;
+		vrLoc = 0;
+	};
+	6F4D603B13D6F233004AA3D2 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 6F4D600A13D6F0C9004AA3D2 /* transcription.icns */;
+	};
+	6F4D605113D6F2EF004AA3D2 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 257572D5072881A4000BE9CA /* Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = /Users/ppad/Documents/xcodeProjects/remoteTranscription/uweRemoteTranscription/src/Info.plist;
+		rLen = 0;
+		rLoc = 9223372036854775807;
+	};
+	6F4D605A13D6F36D004AA3D2 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 65359356078DD41800E8BB2F /* AppleScriptKit.sdef */;
+	};
+	6F4D605B13D6F36D004AA3D2 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 089C165DFE840E0CC02AAC07 /* English */;
+		name = "InfoPlist.strings: 5";
+		rLen = 0;
+		rLoc = 183;
+		rType = 0;
+		vrLen = 188;
+		vrLoc = 0;
+	};
+	6F4D605C13D6F36D004AA3D2 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6F4D601E13D6F100004AA3D2 /* remoteTranscription.rtf */;
+		name = "remoteTranscription.rtf: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1333;
+		vrLoc = 0;
+	};
+	6F4D605D13D6F36D004AA3D2 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6F4D600513D6F023004AA3D2 /* remoteTranscription.applescript */;
+		name = "remoteTranscription.applescript: 567";
+		rLen = 0;
+		rLoc = 20555;
+		rType = 0;
+		vrLen = 1020;
+		vrLoc = 19535;
+	};
+	6F4D605E13D6F36D004AA3D2 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 29B97316FDCFA39411CA2CEA /* main.m */;
+		name = "main.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 197;
+		vrLoc = 0;
+	};
+	6F4D605F13D6F36D004AA3D2 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 29B97316FDCFA39411CA2CEA /* main.m */;
+		name = "main.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 197;
+		vrLoc = 0;
+	};
+	D3F0A65A0FB1E2A300E65155 /* expect.sh */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {665, 4843}}";
-			sepNavSelRange = "{0, 13545}";
-			sepNavVisRange = "{4503, 1175}";
-			sepNavWindowFrame = "{{15, 215}, {750, 558}}";
+			sepNavIntBoundsRect = "{{0, 0}, {516, 572}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 879}";
+		};
+	};
+	D3F0A65B0FB1E2A300E65155 /* sshtest.sh */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {419, 454}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 502}";
+		};
+	};
+	D3F0A65C0FB1E2A300E65155 /* network.sh */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {502, 468}}";
+			sepNavSelRange = "{375, 0}";
+			sepNavVisRange = "{0, 744}";
 		};
 	};
 }
