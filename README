@@ -1,7 +1,8 @@
 Remote Transcription
 
 What is it?
-This is application is based on the BIT Remote Access.app.
+This is application is part of the UWE transcription project.
+It is based on the BIT Remote Access.app
 It is written using a combination of  applescripts and shell scripts. It's main function is to provide a graphical launcher/frontend for various tasks:
 
 	* setup ssh tunnel(s) to the transcription server (a mac mini, connected to ranger, behind the uwe ras)
@@ -10,7 +11,7 @@ It is written using a combination of  applescripts and shell scripts. It's main 
 	* connect to web "processing" interface (for managing uploaded audio files)
 
 Requirements
-BIT Remote Access should work on any Macintosh (PPC or Intel) running a version of OS X later than 10.4.x
+This application should work on any Macintosh (PPC or Intel) running a version of OS X later than 10.4.x
 
 The application depends on /usr/bin/bash for shell scripting
 also /usr/bin/ssh  and /usr/bin/expect  for remote tunneling,
@@ -20,8 +21,7 @@ also /System/Library/Components/CoreAudio.component and /System/Developer/Applic
 This application tries to search for these dependencies but if they have been corrupted or deleted, or their APIs have changed significantly since this application was written (in 2011) then problems will occur.
 
 How do I use it?
-
-There is no installation process, simply copy .app file to your Applications folder
+Simply copy .app file to your Applications folder
 (It will actually run from anywhere on your machine although we recommend the applications folder)
 
 1. Double Click to Run.
