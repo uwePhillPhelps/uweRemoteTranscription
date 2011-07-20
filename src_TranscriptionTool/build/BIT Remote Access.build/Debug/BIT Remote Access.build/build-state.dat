@@ -1,0 +1,164 @@
+TBIT Remote Access
+v7
+r1
+cCheck dependencies
+
+N/Volumes/NO NAME/BIT Remote Access/BIT Remote Access Edit This One/BIT Remote Access Guide.html
+c000000004A1178280000000000001D77
+t1242658856
+s7543
+
+N/Volumes/NO NAME/BIT Remote Access/BIT Remote Access Edit This One/BIT Remote Access.applescript
+c000000004CBC1FA000000000000034E9
+t1287397280
+s13545
+
+N/Volumes/NO NAME/BIT Remote Access/BIT Remote Access Edit This One/English.lproj/InfoPlist.strings
+c000000004CB84964000000000000018E
+t1287145828
+s398
+
+N/Volumes/NO NAME/BIT Remote Access/BIT Remote Access Edit This One/English.lproj/MainMenu.xib
+c000000004CB855360000000000027606
+t1287148854
+s161286
+
+N/Volumes/NO NAME/BIT Remote Access/BIT Remote Access Edit This One/UWE.icns
+c000000004A02CC400000000000011C2D
+t1241697344
+s72749
+
+N/Volumes/NO NAME/BIT Remote Access/BIT Remote Access Edit This One/UWE_clr.gif
+c0000000049F9784C0000000000000A77
+t1241086028
+s2679
+
+N/Volumes/NO NAME/BIT Remote Access/BIT Remote Access Edit This One/build/Debug/BIT Remote Access.app
+t1287160462
+s32768
+
+N/Volumes/NO NAME/BIT Remote Access/BIT Remote Access Edit This One/build/Debug/BIT Remote Access.app/Contents/Info.plist
+t1242739314
+s1093
+
+N/Volumes/NO NAME/BIT Remote Access/BIT Remote Access Edit This One/build/Debug/BIT Remote Access.app/Contents/PkgInfo
+t1242739314
+s8
+
+N/Volumes/NO NAME/BIT Remote Access/BIT Remote Access Edit This One/build/Debug/BIT Remote Access.app/Contents/Resources/BIT Remote Access Guide.html
+t1242739314
+s7543
+
+N/Volumes/NO NAME/BIT Remote Access/BIT Remote Access Edit This One/build/Debug/BIT Remote Access.app/Contents/Resources/English.lproj/InfoPlist.strings
+t1287145832
+s398
+
+N/Volumes/NO NAME/BIT Remote Access/BIT Remote Access Edit This One/build/Debug/BIT Remote Access.app/Contents/Resources/English.lproj/MainMenu.nib
+t1287148878
+s34988
+
+N/Volumes/NO NAME/BIT Remote Access/BIT Remote Access Edit This One/build/Debug/BIT Remote Access.app/Contents/Resources/Scripts/BIT Remote Access.scpt
+t1287160462
+s54700
+
+N/Volumes/NO NAME/BIT Remote Access/BIT Remote Access Edit This One/build/Debug/BIT Remote Access.app/Contents/Resources/UWE.icns
+t1242739314
+s72749
+
+N/Volumes/NO NAME/BIT Remote Access/BIT Remote Access Edit This One/build/Debug/BIT Remote Access.app/Contents/Resources/UWE_clr.gif
+t1242739314
+s2679
+
+N/Volumes/NO NAME/BIT Remote Access/BIT Remote Access Edit This One/build/Debug/BIT Remote Access.app/Contents/Resources/expect.sh
+t1243607742
+s1026
+
+N/Volumes/NO NAME/BIT Remote Access/BIT Remote Access Edit This One/build/Debug/BIT Remote Access.app/Contents/Resources/internalAudio.trak
+t1287150418
+s5904
+
+N/Volumes/NO NAME/BIT Remote Access/BIT Remote Access Edit This One/build/Debug/BIT Remote Access.app/Contents/Resources/internalDesktop.vncloc
+t1287150418
+s72
+
+N/Volumes/NO NAME/BIT Remote Access/BIT Remote Access Edit This One/build/Debug/BIT Remote Access.app/Contents/Resources/network.sh
+t1242739314
+s740
+
+N/Volumes/NO NAME/BIT Remote Access/BIT Remote Access Edit This One/build/Debug/BIT Remote Access.app/Contents/Resources/sshtest.sh
+t1242739314
+s502
+
+N/Volumes/NO NAME/BIT Remote Access/BIT Remote Access Edit This One/expect.sh
+c000000004A1FC9BA0000000000000402
+t1243597242
+s1026
+
+N/Volumes/NO NAME/BIT Remote Access/BIT Remote Access Edit This One/internalAudio.trak
+c000000004C7E47520000000000001710
+t1283344210
+s5904
+
+N/Volumes/NO NAME/BIT Remote Access/BIT Remote Access Edit This One/internalDesktop.vncloc
+c000000004CAAEA640000000000000048
+t1286269540
+s72
+
+N/Volumes/NO NAME/BIT Remote Access/BIT Remote Access Edit This One/network.sh
+c000000004A0816C200000000000002E4
+t1242044098
+s740
+
+N/Volumes/NO NAME/BIT Remote Access/BIT Remote Access Edit This One/sshtest.sh
+c000000004A08168200000000000001F6
+t1242044034
+s502
+
+NInfo.plist
+c000000004A1174F00000000000000444
+t1242658032
+s1092
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies309090087#309090087#0(86"[BEROR]error: There is no SDK with the name or path '/Developer/SDKs/MacOSX10.4u.sdk'1(4@78"error: There is no SDK with the name or path '/Developer/SDKs/MacOSX10.4u.sdk'309090087#18446744073709551615#0#0(1@0"0(0#1#0"9007693183516772#0"0#
+
+CCompileXIB "/Volumes/NO NAME/BIT Remote Access/BIT Remote Access Edit This One/English.lproj/MainMenu.xib"
+r0
+
+CCopyStringsFile "/Volumes/NO NAME/BIT Remote Access/BIT Remote Access Edit This One/build/Debug/BIT Remote Access.app/Contents/Resources/English.lproj/InfoPlist.strings" English.lproj/InfoPlist.strings
+r0
+
+CCpResource "build/Debug/BIT Remote Access.app/Contents/Resources/BIT Remote Access Guide.html" "BIT Remote Access Guide.html"
+r0
+
+CCpResource "build/Debug/BIT Remote Access.app/Contents/Resources/UWE.icns" UWE.icns
+r0
+
+CCpResource "build/Debug/BIT Remote Access.app/Contents/Resources/UWE_clr.gif" UWE_clr.gif
+r0
+
+CCpResource "build/Debug/BIT Remote Access.app/Contents/Resources/expect.sh" expect.sh
+r0
+
+CCpResource "build/Debug/BIT Remote Access.app/Contents/Resources/internalAudio.trak" internalAudio.trak
+r0
+
+CCpResource "build/Debug/BIT Remote Access.app/Contents/Resources/internalDesktop.vncloc" internalDesktop.vncloc
+r0
+
+CCpResource "build/Debug/BIT Remote Access.app/Contents/Resources/network.sh" network.sh
+r0
+
+CCpResource "build/Debug/BIT Remote Access.app/Contents/Resources/sshtest.sh" sshtest.sh
+r0
+
+COSACompile "build/Debug/BIT Remote Access.app/Contents/Resources/Scripts/BIT Remote Access.scpt" "BIT Remote Access.applescript"
+r0
+
+CProcessInfoPlistFile "/Volumes/NO NAME/BIT Remote Access/BIT Remote Access Edit This One/build/Debug/BIT Remote Access.app/Contents/Info.plist" Info.plist
+r0
+
+CTouch "/Volumes/NO NAME/BIT Remote Access/BIT Remote Access Edit This One/build/Debug/BIT Remote Access.app"
+r0
+

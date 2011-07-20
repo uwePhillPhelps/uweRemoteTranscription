@@ -1,0 +1,141 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta http-equiv="Content-Style-Type" content="text/css">
+  <title></title>
+  <meta name="Generator" content="Cocoa HTML Writer">
+  <meta name="CocoaVersion" content="949.43">
+  <style type="text/css">
+    p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 21.0px Helvetica}
+    p.p2 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica; min-height: 14.0px}
+    p.p3 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica}
+    span.s1 {font: 13.0px Lucida Grande}
+    span.Apple-tab-span {white-space:pre}
+    table.t1 {border-collapse: collapse}
+    td.td1 {height: 34.0px; background-color: #efefef; border-style: solid; border-width: 1.0px 1.0px 1.0px 1.0px; border-color: #bfbfbf #bfbfbf #bfbfbf #bfbfbf; padding: 0.0px 5.0px 0.0px 5.0px}
+    td.td2 {background-color: #efefef; border-style: solid; border-width: 1.0px 1.0px 1.0px 1.0px; border-color: #bfbfbf #bfbfbf #bfbfbf #bfbfbf; padding: 0.0px 5.0px 0.0px 5.0px}
+  </style>
+</head>
+<body>
+<p class="p1"><b>BIT Remote Access Guide</b></p>
+<p class="p2"><br></p>
+<p class="p3"><b>What is it?</b></p>
+<p class="p3">BIT Remote Access is an application built to initiate and manage an ssh tunnel which will allow any registered user to connect to specific BIT servers located behind the UWE Firewall.</p>
+<p class="p3">It enables you access your Macintosh, Windows or Unix BIT homespace from any networked machine running Mac OS X.</p>
+<p class="p3">It is a fairly simple event based program written using a combination of<span class="Apple-converted-space">  </span>applescript and shell script. It's main function is to provide a graphical frontend for ssh</p>
+<p class="p2"><br></p>
+<p class="p3"><b>Will it work on my Mac?</b></p>
+<p class="p3">BIT Remote Access should work on any Macintosh (PPC or Intel) running a version of OS X later than 10.x.x</p>
+<p class="p2"><br></p>
+<p class="p3">NB. It does rely on the existence of two Darwin utilities <b>ssh</b> and <b>expect</b> which are found within <span class="s1">/usr/bin </span>in default OS X Installations.<span class="Apple-converted-space">  </span>BIT Remote access does not at present check for their existence and it is possible that if they have been corrupted or deleted the program will not run correctly. More comprehensive environment testing is planned for future revisions.</p>
+<p class="p2"><br></p>
+<p class="p3">You also need a copy of Fetch, which is... more complicated to explain but I'm going home now!<span class="Apple-converted-space"> </span></p>
+<p class="p2"><br></p>
+<p class="p2"><br></p>
+<p class="p2"><br></p>
+<p class="p3"><b>How do I use it?</b></p>
+<p class="p2"><b></b><br></p>
+<p class="p3">There is no installation process, simply copy BIT Remote Access to your Applications folder</p>
+<p class="p3">(It will actually run from anywhere on your machine although we recommend the applications folder)</p>
+<p class="p2"><b></b><br></p>
+<p class="p3">Double Click to Run.</p>
+<p class="p2"><br></p>
+<p class="p3">Enter your BIT username and password in the fields provided (<span class="Apple-converted-space"> </span></p>
+<p class="p2"><br></p>
+<p class="p3">Pick a server to connect to from the drop down menu</p>
+<p class="p3"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span><b>NAS</b> for your Windows or unix files (including the <b>public_html</b> directory for your BIT personal website files)</p>
+<p class="p3"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span><b>Ranger</b> for your Macintosh files</p>
+<p class="p2"><br></p>
+<p class="p3">Click <b>Connect</b> (Enter)</p>
+<p class="p3">When you are finished working Click <b>Disconnect</b> to close the tunnel</p>
+<p class="p2"><br></p>
+<p class="p3">The optional <b>Reset</b> button will close any existing tunnels to the Remote Access Server, initialise the username and password fields and run a brief network test to establish the state of your network.<span class="Apple-converted-space"> </span></p>
+<p class="p2"><b></b><br></p>
+<p class="p3"><b>What is Fetch?</b></p>
+<p class="p3">SFTP Client from Fetchworks - we have an academic licence ...</p>
+<p class="p2"><b></b><br></p>
+<p class="p3"><b>What is ssh?</b></p>
+<p class="p3">ssh or secure shell is a networking protocol that allows data to be exchanged between two networked devices using secure encryption</p>
+<p class="p2"><br></p>
+<p class="p3"><b>How do I register?</b></p>
+<p class="p3">When on campus, visit the BIT Supportweb pages...</p>
+<p class="p2"><br></p>
+<p class="p3"><a href="http://www.bit.uwe.ac.uk/supportweb">http://www.bit.uwe.ac.uk/supportweb</a></p>
+<p class="p2"><br></p>
+<p class="p3">Follow the links to <i>Home Computing &gt; Home Access Service<span class="Apple-converted-space"> </span></i></p>
+<p class="p3">and you will find instructions on how to access the BIT systems from home along with a link for registration.</p>
+<p class="p2"><br></p>
+<p class="p2"><br></p>
+<p class="p3"><b>Network Status Messages</b></p>
+<p class="p2"><b></b><br></p>
+<table cellspacing="0" cellpadding="0" class="t1">
+  <tbody>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p3"><b>Message</b></p>
+      </td>
+      <td valign="middle" class="td1">
+        <p class="p3"><b>Explanation</b></p>
+      </td>
+      <td valign="middle" class="td1">
+        <p class="p3"><b>Possible Cause</b></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td2">
+        <p class="p3">Online:</p>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p2"><br></p>
+        <p class="p3">There is a path from your home machine to the Remote Access Server</p>
+        <p class="p2"><b></b><br></p>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p2"><b></b><br></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td2">
+        <p class="p3">Remote Server Unavailable:</p>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p3">The BIT Remote Access Server is not available.</p>
+        <p class="p2"><br></p>
+        <p class="p3">(At present this status message is a catchall for any networking errors)</p>
+        <p class="p2"><b></b><br></p>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p2"><br></p>
+        <p class="p3">Server is offline or not accepting connections<span class="Apple-converted-space"> </span></p>
+        <p class="p2"><br></p>
+        <p class="p3">No local network connection (Network Cable unplugged, Wireless base station disconnected etc.)</p>
+        <p class="p2"><br></p>
+        <p class="p3">Your router does not allow ssh traffic - most do</p>
+        <p class="p2"><br></p>
+        <p class="p3">Your ISP does not allow ssh traffic - most do</p>
+        <p class="p2"><b></b><br></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td2">
+        <p class="p3">Local Network Unavailable:</p>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p2"><br></p>
+        <p class="p3">Not Yet Implemented</p>
+        <p class="p2"><br></p>
+        <p class="p2"><b></b><br></p>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p2"><b></b><br></p>
+      </td>
+    </tr>
+  </tbody>
+</table>
+<p class="p2"><br></p>
+<p class="p2"><br></p>
+<p class="p3"><b>Connection Status Messages</b></p>
+<p class="p2"><b></b><br></p>
+</body>
+</html>

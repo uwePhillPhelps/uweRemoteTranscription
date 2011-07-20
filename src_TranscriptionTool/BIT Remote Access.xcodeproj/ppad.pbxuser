@@ -1,0 +1,159 @@
+// !$*UTF8*$!
+{
+	257572C2072881A4000BE9CA /* BIT Remote Access */ = {
+		activeExec = 0;
+		executables = (
+			25D9445407B1533600FF306F /* BIT Remote Access */,
+		);
+	};
+	25D9445407B1533600FF306F /* BIT Remote Access */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+			"PBXLSLaunchAction-1" = {
+				PBXLSLaunchAction = 1;
+				PBXLSLaunchStartAction = 1;
+				PBXLSLaunchStdioStyle = 2;
+				PBXLSLaunchStyle = 0;
+				class = ASKDebuggerLaunchConfig;
+				displayName = "AppleScript Debugger";
+				identifier = com.apple.AppleScriptStudio.ASKDebugLaunchConfig;
+				remoteHostInfo = "";
+				startActionInfo = "";
+			};
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = ASKDebugger;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+			{
+				active = NO;
+				name = AEDebug;
+				value = 1;
+			},
+			{
+				active = NO;
+				name = AEDebugSends;
+				value = 1;
+			},
+			{
+				active = NO;
+				name = AEDebugReceives;
+				value = 1;
+			},
+			{
+				active = NO;
+				name = AEDebugVerbose;
+				value = 1;
+			},
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = "BIT Remote Access";
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	25D9445A07B1533700FF306F /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+		scmType = "";
+	};
+	25D9445B07B1533700FF306F /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = 25D9445407B1533600FF306F /* BIT Remote Access */;
+		activeTarget = 257572C2072881A4000BE9CA /* BIT Remote Access */;
+		codeSenseManager = 25D9445B07B1533700FF306F /* Code sense */;
+		executables = (
+			25D9445407B1533600FF306F /* BIT Remote Access */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					487,
+					20,
+					48.16259765625,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 309089929;
+			PBXWorkspaceStateSaveDate = 309089929;
+		};
+		perUserProjectItems = {
+			6F374D46126C5745003E0145 /* PlistBookmark */ = 6F374D46126C5745003E0145 /* PlistBookmark */;
+			6F374D47126C5745003E0145 /* PBXBookmark */ = 6F374D47126C5745003E0145 /* PBXBookmark */;
+			6F374D48126C5745003E0145 /* PBXTextBookmark */ = 6F374D48126C5745003E0145 /* PBXTextBookmark */;
+		};
+		sourceControlManager = 25D9445A07B1533700FF306F /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	6F374D46126C5745003E0145 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = A1983E741268888200679226 /* internalDesktop.vncloc */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = "/Volumes/NO NAME/BIT Remote Access/BIT Remote Access Edit This One/internalDesktop.vncloc";
+		rLen = 0;
+		rLoc = 9223372036854775807;
+	};
+	6F374D47126C5745003E0145 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = DA206CF3015C4E8B03C91932 /* BIT Remote Access.applescript */;
+	};
+	6F374D48126C5745003E0145 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DA206CF3015C4E8B03C91932 /* BIT Remote Access.applescript */;
+		name = "BIT Remote Access.applescript: 1";
+		rLen = 13545;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1175;
+		vrLoc = 4503;
+	};
+	DA206CF3015C4E8B03C91932 /* BIT Remote Access.applescript */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {665, 4843}}";
+			sepNavSelRange = "{0, 13545}";
+			sepNavVisRange = "{4503, 1175}";
+			sepNavWindowFrame = "{{15, 215}, {750, 558}}";
+		};
+	};
+}
