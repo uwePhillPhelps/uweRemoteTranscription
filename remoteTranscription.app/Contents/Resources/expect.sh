@@ -15,7 +15,7 @@ set remoteportex [lrange $argv 4 4]
 
 set timeout -1
 # connect to server
-spawn ssh $userex@164.11.131.66 -L $localportex/$serverex/$remoteportex
+spawn ssh $userex@164.11.131.68 -L $localportex/$serverex/$remoteportex
 match_max 100000
 
 for {set i 0} {$i<2} {incr i 1} {
