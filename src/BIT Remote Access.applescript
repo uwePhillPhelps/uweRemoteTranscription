@@ -62,9 +62,9 @@ on awake from nib theObject
 		end if
 	end if
 	
-	--kill any existing ssh tunnels to 164.11.131.66
+	--kill any existing ssh tunnels to 164.11.131.68
 	try
-		do shell script "kill -HUP `ps -ax | grep 164.11.131.66 | grep -v grep | awk '{print $1}'`"
+		do shell script "kill -HUP `ps -ax | grep 164.11.131.68 | grep -v grep | awk '{print $1}'`"
 	end try
 	
 end awake from nib
@@ -167,7 +167,7 @@ on clicked theObject
 		
 		set counter to 0
 		repeat 6 times
-			set sshtest to (do shell script "ps -ax | grep 164.11.131.66 | grep -v grep | awk '{print $4}'")
+			set sshtest to (do shell script "ps -ax | grep 164.11.131.68 | grep -v grep | awk '{print $4}'")
 			if sshtest is equal to "ssh" then
 				set sshdone to true
 				set counter to (counter + 1)
@@ -266,7 +266,7 @@ on clicked theObject
 			set theWindow to window of theObject
 			
 			try
-				do shell script "kill -HUP `ps -ax | grep 164.11.131.66 | grep -v grep | awk '{print $1}'`"
+				do shell script "kill -HUP `ps -ax | grep 164.11.131.68 | grep -v grep | awk '{print $1}'`"
 			end try
 			try
 				do shell script "mv -f ~/.ssh/known_hosts_temp ~/.ssh/known_hosts"
@@ -305,7 +305,7 @@ on clicked theObject
 				end try
 				
 				try
-					do shell script "kill -HUP `ps -ax | grep 164.11.131.66 | grep -v grep | awk '{print $1}'`"
+					do shell script "kill -HUP `ps -ax | grep 164.11.131.68 | grep -v grep | awk '{print $1}'`"
 				end try
 				
 				tell application "Finder" to get (path to me) as Unicode text

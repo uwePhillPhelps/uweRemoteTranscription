@@ -1,5 +1,5 @@
 #!/bin/sh
-server=164.11.131.66
+server=164.11.131.68
 testserver=www.google.co.uk
 
 ping -c 1 -t 3 $server > /dev/null

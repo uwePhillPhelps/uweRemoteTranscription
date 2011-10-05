@@ -2,7 +2,7 @@
 #sshtest.sh
 
 set filename /tmp/sshtest.txt
-set server 164.11.131.66
+set server 164.11.131.68
 
 set timeout 5
 # connect to server
